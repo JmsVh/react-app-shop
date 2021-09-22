@@ -28,7 +28,7 @@ const fecha = new Date().getFullYear();
   return (
     <Fragment>
         <Header titulo="Titulo del sitio web"/>
-        <h2>Tienda de productos:</h2>
+        <h2>Productos:</h2>
             {productos.map(producto => (
                 <Producto
                     key={producto.id}
